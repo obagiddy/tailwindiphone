@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Star Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            fonFamily: {
+              sans: ["ui-sans-serif", "system-ui"],
+              serif: ["ui-serif", "Georgia"],
+              mono: ["ui-monospace", "SFMono-Regular"],
+              montserrat: ['montserrat', "sans-serif"]
+            },
+          },
+        };
+    </script>
+</head>
+<body class="font-montserrat">
+    <!-- header -->
+    <div class="border-b-[1px] border-black">
+        <div class="w-[80%] mx-auto flex justify-between py-5">
+            <div>
+                <p class="text-2xl">Star Tech</p>
+            </div>
+            <div>
+                <div class="block lg:hidden">
+                    <p class="float-left outline">Menu <i class='bx bx-menu'></i></p>
+                </div>
+                <ul class="hidden lg:flex space-x-5">
+                    <li>Features</li>
+                    <li>Download</li>
+                    <li class="bg-blue-600 p-2 rounded-full text-white  mt-[-2%]"><i class='bx bxs-message-rounded-dots'></i> Send Feedback</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- header done -->
+
+    <!-- first layer -->
+    <div class="bg-[#f5f5f5]">
+        <div class="w-full lg:w-[80%] mx-auto flex flex-col lg:flex lg:flex-row lg:justify-between py-[5%] items-center text-center lg:items-start lg:text-start">
+            <div class="w-[50%]">
+                <h1 class="text-5xl lg:text-8xl font-bold mb-[5%]">Showcase your app beautifully.</h1>
+                <p class="mb-[5%] font-serif">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                <div class="flex flex-col lg:flex lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5 items-center">
+                    <img class="w-[150px] lg:h-[50px]" src="img/apple.st.png" alt="">
+                    <img class="w-[150px] lg:h-[50px]" src="img/Google-Play-Store.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <img class="h-[300px] mt-5 lg:h-[500px]" src="img/mooch.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- first layer done -->
+
+    <!-- second layer -->
+    <div class="bg-gradient-to-r from-blue-700 to-purple-700 py-[5%]">
+        <div class="w-[50%] mx-auto flex flex-col items-center">
+            <p class="text-white text-4xl text-center">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</p>
+            <img src="/img/flame-1964066_1280.png" alt="" class="h-[60px] mt-[5%] rounded-full">
+        </div>
+    </div>
+    <!-- second layer done -->
+
+    <!-- third layer -->
+    <div class="bg-white">
+        <div class="w-[100%] lg:w-[80%] items-center lg:items-start mx-auto flex flex-col-reverse lg:flex-row justify-between py-[5%]">
+            <div class="w-full flex justify-center lg:w-[50%]">
+                <img class="h-[300px] mt-5 md:mt-[5%] lg:mt-0 lg:h-[500px]" src="/img/mooch.jpg" alt="">
+            </div>
+            <div class="w-[80%] mx-auto lg:w-[50%] flex flex-col md:flex-row md:flex-wrap justify-between">
+                <div class="w-[70%] mx-auto md:w-[50%] lg:mt-[5%] mt-5 md:mt-0 text-center">
+                    <i class='bx bx-mobile-alt text-7xl text-blue-800'></i>
+                    <h1 class="text-xl font-bold mt-5">Device Mockups</h1>
+                    <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                </div>
+                <div class="w-[70%] mx-auto md:w-[50%] mt-5 md:mt-0 text-center">
+                    <i class='bx bx-camera text-7xl lg:mt-[9%] text-blue-800'></i>
+                    <h1 class="text-xl font-bold mt-5">Flexible Use</h1>
+                    <p>Put an image, video, animation, or anything else in the screen!</p>
+                </div>
+                <div class="w-[70%] mx-auto md:w-[50%] mt-5 md:mt-0 text-center">
+                    <i class='bx bx-gift text-7xl lg:mt-[50%] text-blue-800'></i>
+                    <h1 class="text-xl font-bold mt-5">Free to Use</h1>
+                    <p>As always, this theme is free to download and use for any purpose!</p>
+                </div>
+                <div class="w-[70%] mx-auto md:w-[50%] mt-5 md:mt-0 text-center">
+                    <i class='bx bx-badge-check text-7xl lg:mt-[50%]  text-blue-800'></i>
+                    <h1 class="text-xl font-bold mt-5">Open Source</h1>
+                    <p>Since this theme is MIT licensed, you can use it commercially!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- third layer done -->
+
+    <!-- forth layer -->
+    <div class="bg-[#f5f5f5] p-[5%]">
+        <div class="lg:flex m-auto w-[60%] md:w-full lg:w-[95%] items-center justify-between">
+            <div>
+                <h1 class="lg:text-5xl text-[2rem] md:text-[42px] md:font-serif md:font-bold font-medium mt-[5rem]">Enter a new age of web design</h1>
+                <p class="lg:text-[19px] md:text-[20px] text-[17px] md:mt-[5%] mt-[10%]">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+            </div>
+            <img src="img/iner.jpeg" alt="" class="lg:h-[500px] h-[170px] md:ml-[20%] md:h-[350px] lg:ml-[15%] ml-[14%] mt-[10%] rounded-full">
+        </div>
+    </div>
+    <!-- forth layer done -->
+
+    <!-- fifth layer -->
+    <div class="lg:w-full lg:h-[95vh] w-[100%] h-[100vh] bg-center bg-no-repeat bg-cover bg-[url('/img/hand.jpg')]">
+        <div class="lg:p-52 p-[75px] py-[150px]">
+            <h1 class="text-white lg:text-7xl md:text-[4rem] text-[3rem] font-bold font-serif">Stop waiting. <br>
+                Start building.</h1>
+                <a href="#"><button class="cursor-pointer hover:bg-white hover:text-black transition ease-in-out duration-200 mt-[1rem] p-[15px] lg:rounded-full rounded-[30px] text-white text-[17px] md:text-[20px] lg:mt-[2rem] bg-transparent border-solid border-2 border-white">Download for free</button></a>
+        </div>
+    </div>
+    <!-- fifth layer done -->
+
+    <!-- sixth layer -->
+    <div class="bg-gradient-to-r from-blue-700 to-purple-700 py-[7%] lg:py-[5%]">
+        <div class="w-[50%] m-auto text-center">
+            <h2 class="text-white text-2xl font-bold md:text-3xl font-alt mb-5">Get the app now!</h2>
+            <div class="lg:flex lg:flex-row flex-col lg:space-x-2 px-[40px] lg:space-y-0 space-y-5 rounded-full lg:px-[26%] lg:ml-0 md:ml-[19%] cursor-pointer">
+                <img src="img/Google-Play-Store.jpg" alt="" class="h-[50px] w-[160px]">
+                <img src="img/apple.st.png" alt="" class="h-[50px] w-[160px]">
+            </div>
+        </div>
+    </div>
+    <!-- sixth layer done -->
+
+    <!-- last layer -->
+    <div class="text-center bg-black h-[150px] text-[#f0f8ff] ">
+        <div class="text-sm md:ml-[20px] lg:py-[3%] p-[45px] mb-5">
+            <p class="lg:w-full w-[50%]">&COPY; Your Website 2023. All Rights Reserved.</p>
+            <ul class="flex space-x-2 lg:px-[45%] px-[30px] mt-3 text-[15px]">
+                <a href="c"><li class="hover:text-white hover:underline">Privacy</li></a>
+                <a href="b"><li class="hover:text-white hover:underline">Terms</li></a>
+                <a href="a"><li class="hover:text-white hover:underline">FAQ</li></a>
+            </ul>
+        </div>
+    </div>
+    <!-- last layer done -->
+</body>
+</html>
